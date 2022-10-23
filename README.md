@@ -7,7 +7,7 @@
 
 Conversational recommender systems (CRS) aim to provide high-quality recommendations through fewer multi-turn conversations. 
 However, because short conversation histories lack sufficient item information, CRSs not only struggle to make accurate recommendations but also lack diversity in the generated responses. 
-Existing CRSs mainly alleviate these problems by introducing external information ($\textit{e.g.,}$ reviews) while ignoring information inside the conversations ($\textit{e.g.,}$ potential category preferences in user utterances). 
+Existing CRSs mainly alleviate these problems by introducing external information (e.g., reviews) while ignoring information inside the conversations ($\textit{e.g.,}$ potential category preferences in user utterances). 
 Besides, item introduction is a kind of external information that is more objective and contains more entities than reviews. 
 
 ![image](figure/model_figure.png)
