@@ -4,17 +4,9 @@
 > 
 > ***[MACR: Multi-information Augmented Conversational Recommender](https://www.sciencedirect.com/science/article/pii/S0957417422019996)***
 
-
-Conversational recommender systems (CRS) aim to provide high-quality recommendations through fewer multi-turn conversations. 
-However, because short conversation histories lack sufficient item information, CRSs not only struggle to make accurate recommendations but also lack diversity in the generated responses. 
-Existing CRSs mainly alleviate these problems by introducing external information (e.g., reviews) while ignoring information inside the conversations ($\textit{e.g.,}$ potential category preferences in user utterances). 
-Besides, item introduction is a kind of external information that is more objective and contains more entities than reviews. 
+We propose a Multi-information Augmented Conversational Recommender (MACR), which improves the performance of recommendation and response generation by mining the underlying category preferences in users' utterances and incorporating item introductions. 
 
 ![image](figure/model_figure.png)
-
-Therefore, we propose a Multi-information Augmented Conversational Recommender (MACR), which improves the performance of recommendation and response generation by mining the underlying category preferences in users' utterances and incorporating item introductions. 
-Specifically, we enhance the category associations among entities by constructing a knowledge graph DBMG with category nodes,  extracting and encoding the item categories that match the user preferences into the user representation. 
-For item introductions, we extract the entities in them and fuse them into the conversation using an introduction-attentive encoder-decoder.
 
 # Download Data
 
