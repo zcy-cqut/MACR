@@ -18,7 +18,7 @@ For item introductions, we extract the entities in them and fuse them into the c
 
 # Download Data
 
-Please download data from the [link](https://drive.google.com/drive/folders/14O6DbECu4efkrmtFacU3kT0lPYXLu2CJ?usp=sharing), after unzipping, move it into `data/`.
+Please download data from the [link](https://drive.google.com/drive/folders/14O6DbECu4efkrmtFacU3kT0lPYXLu2CJ?usp=sharing), after unzipping, move it into `src/data/`.
 
 # Environment 
 - python == 3.6.1
