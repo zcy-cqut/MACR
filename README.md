@@ -30,7 +30,7 @@ Run the dialogue module:
 
 
 # Thanks for your citation
-```c
+```bibtex
 @article{ZHANG2023118981,
 title = {MACR: Multi-information Augmented Conversational Recommender},
 journal = {Expert Systems with Applications},
